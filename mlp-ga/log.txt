@@ -1,0 +1,1448 @@
+start of evolution
+optimizer is SGD lr = 0.01
+ load mnist data
+  build mlp model
+        optimizer:	<keras.optimizer_v2.gradient_descent.SGD object at 0x15adeeb50>
+        dense1:	256
+        dense2:	32
+        drop1:	0.31510952715944257
+        drop2:	0.20198048478423647
+        activation:	sigmoid
+        batch_size:\512
+        
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 256)               200960    
+                                                                 
+ activation (Activation)     (None, 256)               0         
+                                                                 
+ dropout (Dropout)           (None, 256)               0         
+                                                                 
+ dense_1 (Dense)             (None, 32)                8224      
+                                                                 
+ activation_1 (Activation)   (None, 32)                0         
+                                                                 
+ dropout_1 (Dropout)         (None, 32)                0         
+                                                                 
+ dense_2 (Dense)             (None, 10)                330       
+                                                                 
+ activation_2 (Activation)   (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[2.2846596240997314, 0.12530000507831573]
+optimizer is SGD lr = 0.01
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.gradient_descent.SGD object at 0x15afb00d0>
+        dense1:	128
+        dense2:	1024
+        drop1:	0.45634496138988057
+        drop2:	0.31627557353342245
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_3 (Dense)             (None, 128)               100480    
+                                                                 
+ activation_3 (Activation)   (None, 128)               0         
+                                                                 
+ dropout_2 (Dropout)         (None, 128)               0         
+                                                                 
+ dense_4 (Dense)             (None, 1024)              132096    
+                                                                 
+ activation_4 (Activation)   (None, 1024)              0         
+                                                                 
+ dropout_3 (Dropout)         (None, 1024)              0         
+                                                                 
+ dense_5 (Dense)             (None, 10)                10250     
+                                                                 
+ activation_5 (Activation)   (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 242,826
+Trainable params: 242,826
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[1.977278709411621, 0.4668999910354614]
+optimizer is SGD lr = 0.01
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.gradient_descent.SGD object at 0x15b83b700>
+        dense1:	256
+        dense2:	256
+        drop1:	0.09912997380379063
+        drop2:	0.012305144532270385
+        activation:	sigmoid
+        batch_size:\128
+        
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_6 (Dense)             (None, 256)               200960    
+                                                                 
+ activation_6 (Activation)   (None, 256)               0         
+                                                                 
+ dropout_4 (Dropout)         (None, 256)               0         
+                                                                 
+ dense_7 (Dense)             (None, 256)               65792     
+                                                                 
+ activation_7 (Activation)   (None, 256)               0         
+                                                                 
+ dropout_5 (Dropout)         (None, 256)               0         
+                                                                 
+ dense_8 (Dense)             (None, 10)                2570      
+                                                                 
+ activation_8 (Activation)   (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 269,322
+Trainable params: 269,322
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[2.204730749130249, 0.4334000051021576]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15b89eee0>
+        dense1:	64
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.47501795585781736
+        activation:	sigmoid
+        batch_size:\64
+        
+Model: "sequential_3"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_9 (Dense)             (None, 64)                50240     
+                                                                 
+ activation_9 (Activation)   (None, 64)                0         
+                                                                 
+ dropout_6 (Dropout)         (None, 64)                0         
+                                                                 
+ dense_10 (Dense)            (None, 32)                2080      
+                                                                 
+ activation_10 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_7 (Dropout)         (None, 32)                0         
+                                                                 
+ dense_11 (Dense)            (None, 10)                330       
+                                                                 
+ activation_11 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 52,650
+Trainable params: 52,650
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.36762529611587524, 0.90829998254776]
+optimizer is SGD lr = 0.001
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.gradient_descent.SGD object at 0x15aff5b20>
+        dense1:	64
+        dense2:	32
+        drop1:	0.40747622411528084
+        drop2:	0.3848398829191119
+        activation:	sigmoid
+        batch_size:\128
+        
+Model: "sequential_4"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_12 (Dense)            (None, 64)                50240     
+                                                                 
+ activation_12 (Activation)  (None, 64)                0         
+                                                                 
+ dropout_8 (Dropout)         (None, 64)                0         
+                                                                 
+ dense_13 (Dense)            (None, 32)                2080      
+                                                                 
+ activation_13 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_9 (Dropout)         (None, 32)                0         
+                                                                 
+ dense_14 (Dense)            (None, 10)                330       
+                                                                 
+ activation_14 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 52,650
+Trainable params: 52,650
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[2.332369804382324, 0.08209999650716782]
+ 5 invalid 
+ -- 0 gen --
+mate
+mate
+mutate
+optimizer is SGD lr = 0.01
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.gradient_descent.SGD object at 0x15bc74ac0>
+        dense1:	64
+        dense2:	256
+        drop1:	0.09912997380379063
+        drop2:	0.012305144532270385
+        activation:	sigmoid
+        batch_size:\128
+        
+Model: "sequential_5"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_15 (Dense)            (None, 64)                50240     
+                                                                 
+ activation_15 (Activation)  (None, 64)                0         
+                                                                 
+ dropout_10 (Dropout)        (None, 64)                0         
+                                                                 
+ dense_16 (Dense)            (None, 256)               16640     
+                                                                 
+ activation_16 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_11 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_17 (Dense)            (None, 10)                2570      
+                                                                 
+ activation_17 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 69,450
+Trainable params: 69,450
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[2.265011787414551, 0.12620000541210175]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bce7eb0>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.47501795585781736
+        activation:	sigmoid
+        batch_size:\64
+        
+Model: "sequential_6"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_18 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_18 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_12 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_19 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_19 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_13 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_20 (Dense)            (None, 10)                330       
+                                                                 
+ activation_20 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.2642698884010315, 0.9287999868392944]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bce1820>
+        dense1:	64
+        dense2:	32
+        drop1:	0.45634496138988057
+        drop2:	0.31627557353342245
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_7"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_21 (Dense)            (None, 64)                50240     
+                                                                 
+ activation_21 (Activation)  (None, 64)                0         
+                                                                 
+ dropout_14 (Dropout)        (None, 64)                0         
+                                                                 
+ dense_22 (Dense)            (None, 32)                2080      
+                                                                 
+ activation_22 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_15 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_23 (Dense)            (None, 10)                330       
+                                                                 
+ activation_23 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 52,650
+Trainable params: 52,650
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.3011406362056732, 0.9176999926567078]
+optimizer is SGD lr = 0.01
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.gradient_descent.SGD object at 0x15bf2ce50>
+        dense1:	128
+        dense2:	1024
+        drop1:	0.29334818588837985
+        drop2:	0.47501795585781736
+        activation:	sigmoid
+        batch_size:\64
+        
+Model: "sequential_8"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_24 (Dense)            (None, 128)               100480    
+                                                                 
+ activation_24 (Activation)  (None, 128)               0         
+                                                                 
+ dropout_16 (Dropout)        (None, 128)               0         
+                                                                 
+ dense_25 (Dense)            (None, 1024)              132096    
+                                                                 
+ activation_25 (Activation)  (None, 1024)              0         
+                                                                 
+ dropout_17 (Dropout)        (None, 1024)              0         
+                                                                 
+ dense_26 (Dense)            (None, 10)                10250     
+                                                                 
+ activation_26 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 242,826
+Trainable params: 242,826
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[2.216881036758423, 0.365200012922287]
+ 4 invalid 
+  Min 0.2642698884010315
+  Max 2.265011787414551
+  Avg 1.0829857289791107
+  Std 0.9461735673160622
+ -- 1 gen --
+mate
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15a010670>
+        dense1:	256
+        dense2:	32
+        drop1:	0.45634496138988057
+        drop2:	0.31627557353342245
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_9"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_27 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_27 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_18 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_28 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_28 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_19 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_29 (Dense)            (None, 10)                330       
+                                                                 
+ activation_29 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.2115638256072998, 0.9369000196456909]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x117820fa0>
+        dense1:	64
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.47501795585781736
+        activation:	sigmoid
+        batch_size:\64
+        
+Model: "sequential_10"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_30 (Dense)            (None, 64)                50240     
+                                                                 
+ activation_30 (Activation)  (None, 64)                0         
+                                                                 
+ dropout_20 (Dropout)        (None, 64)                0         
+                                                                 
+ dense_31 (Dense)            (None, 32)                2080      
+                                                                 
+ activation_31 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_21 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_32 (Dense)            (None, 10)                330       
+                                                                 
+ activation_32 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 52,650
+Trainable params: 52,650
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.3629743754863739, 0.9041000008583069]
+ 2 invalid 
+  Min 0.2115638256072998
+  Max 0.3629743754863739
+  Avg 0.2734695732593536
+  Std 0.04918807542186457
+ -- 2 gen --
+mate
+mate
+mutate
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bc95c10>
+        dense1:	0
+        dense2:	32
+        drop1:	0.45634496138988057
+        drop2:	0.31627557353342245
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_11"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_33 (Dense)            (None, 0)                 0         
+                                                                 
+ activation_33 (Activation)  (None, 0)                 0         
+                                                                 
+ dropout_22 (Dropout)        (None, 0)                 0         
+                                                                 
+ dense_34 (Dense)            (None, 32)                32        
+                                                                 
+ activation_34 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_23 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_35 (Dense)            (None, 10)                330       
+                                                                 
+ activation_35 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 362
+Trainable params: 362
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[2.302899122238159, 0.11349999904632568]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x12199e490>
+        dense1:	256
+        dense2:	32
+        drop1:	0.45634496138988057
+        drop2:	0.31627557353342245
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_12"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_36 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_36 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_24 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_37 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_37 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_25 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_38 (Dense)            (None, 10)                330       
+                                                                 
+ activation_38 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.21152204275131226, 0.9379000067710876]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15ba61f40>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.31627557353342245
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_13"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_39 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_39 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_26 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_40 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_40 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_27 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_41 (Dense)            (None, 10)                330       
+                                                                 
+ activation_41 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.19848096370697021, 0.9412999749183655]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bb5e880>
+        dense1:	256
+        dense2:	32
+        drop1:	0.45634496138988057
+        drop2:	0.47501795585781736
+        activation:	sigmoid
+        batch_size:\64
+        
+Model: "sequential_14"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_42 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_42 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_28 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_43 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_43 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_29 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_44 (Dense)            (None, 10)                330       
+                                                                 
+ activation_44 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.2816414535045624, 0.925000011920929]
+ 4 invalid 
+  Min 0.19848096370697021
+  Max 2.302899122238159
+  Avg 0.6517626941204071
+  Std 0.8261559259293877
+ -- 3 gen --
+mutate
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bc6e070>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.31627557353342245
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_15"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_45 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_45 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_30 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_46 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_46 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_31 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_47 (Dense)            (None, 10)                330       
+                                                                 
+ activation_47 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.20283766090869904, 0.9401999711990356]
+ 1 invalid 
+  Min 0.19848096370697021
+  Max 0.2642698884010315
+  Avg 0.22566787302494049
+  Std 0.03155853559337499
+ -- 4 gen --
+mate
+mutate
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bc7e220>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.31627557353342245
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_16"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_48 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_48 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_32 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_49 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_49 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_33 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_50 (Dense)            (None, 10)                330       
+                                                                 
+ activation_50 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.2042771726846695, 0.9390000104904175]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15a6e34f0>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.31627557353342245
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_17"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_51 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_51 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_34 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_52 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_52 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_35 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_53 (Dense)            (None, 10)                330       
+                                                                 
+ activation_53 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.20148491859436035, 0.9420999884605408]
+ 2 invalid 
+  Min 0.19848096370697021
+  Max 0.2042771726846695
+  Avg 0.2002409964799881
+  Std 0.002329429400868271
+ -- 5 gen --
+mate
+mate
+mutate
+mutate
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bb45e80>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.31627557353342245
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_18"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_54 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_54 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_36 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_55 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_55 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_37 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_56 (Dense)            (None, 10)                330       
+                                                                 
+ activation_56 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.20642058551311493, 0.9391000270843506]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15c0ed6d0>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.31627557353342245
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_19"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_57 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_57 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_38 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_58 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_58 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_39 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_59 (Dense)            (None, 10)                330       
+                                                                 
+ activation_59 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.20531021058559418, 0.9401999711990356]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bc994c0>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.31627557353342245
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_20"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_60 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_60 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_40 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_61 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_61 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_41 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_62 (Dense)            (None, 10)                330       
+                                                                 
+ activation_62 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.2048404961824417, 0.9397000074386597]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bb26dc0>
+        dense1:	256
+        dense2:	0
+        drop1:	0.29334818588837985
+        drop2:	0.31627557353342245
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_21"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_63 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_63 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_42 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_64 (Dense)            (None, 0)                 0         
+                                                                 
+ activation_64 (Activation)  (None, 0)                 0         
+                                                                 
+ dropout_43 (Dropout)        (None, 0)                 0         
+                                                                 
+ dense_65 (Dense)            (None, 10)                10        
+                                                                 
+ activation_65 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 200,970
+Trainable params: 200,970
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[2.30259108543396, 0.09799999743700027]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15b949d60>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.0
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_22"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_66 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_66 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_44 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_67 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_67 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_45 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_68 (Dense)            (None, 10)                330       
+                                                                 
+ activation_68 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.1726849526166916, 0.9495999813079834]
+ 5 invalid 
+  Min 0.1726849526166916
+  Max 2.30259108543396
+  Avg 0.6183694660663605
+  Std 0.8422070038101962
+ -- 6 gen --
+mate
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bf52ee0>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.0
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_23"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_69 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_69 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_46 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_70 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_70 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_47 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_71 (Dense)            (None, 10)                330       
+                                                                 
+ activation_71 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.17400917410850525, 0.949400007724762]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15c07e580>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.0
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_24"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_72 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_72 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_48 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_73 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_73 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_49 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_74 (Dense)            (None, 10)                330       
+                                                                 
+ activation_74 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.1810910999774933, 0.9473000168800354]
+ 2 invalid 
+  Min 0.1726849526166916
+  Max 0.20642058551311493
+  Avg 0.18137815296649934
+  Std 0.012904659168870933
+ -- 7 gen --
+mate
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bcd6a60>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.0
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_25"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_75 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_75 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_50 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_76 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_76 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_51 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_77 (Dense)            (None, 10)                330       
+                                                                 
+ activation_77 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.1748761683702469, 0.9509000182151794]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15baac730>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.0
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_26"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_78 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_78 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_52 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_79 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_79 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_53 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_80 (Dense)            (None, 10)                330       
+                                                                 
+ activation_80 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.1734839826822281, 0.9496999979019165]
+ 2 invalid 
+  Min 0.1726849526166916
+  Max 0.1810910999774933
+  Avg 0.175229075551033
+  Std 0.0030164198650041284
+ -- 8 gen --
+mate
+mate
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bc7e040>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.0
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_27"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_81 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_81 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_54 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_82 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_82 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_55 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_83 (Dense)            (None, 10)                330       
+                                                                 
+ activation_83 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.17874950170516968, 0.9478999972343445]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bf939a0>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.0
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_28"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_84 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_84 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_56 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_85 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_85 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_57 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_86 (Dense)            (None, 10)                330       
+                                                                 
+ activation_86 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.1730136126279831, 0.9490000009536743]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bd2b1c0>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.0
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_29"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_87 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_87 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_58 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_88 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_88 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_59 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_89 (Dense)            (None, 10)                330       
+                                                                 
+ activation_89 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.1787230521440506, 0.9467999935150146]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bd92a00>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.0
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_30"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_90 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_90 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_60 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_91 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_91 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_61 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_92 (Dense)            (None, 10)                330       
+                                                                 
+ activation_92 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.1748785525560379, 0.9513000249862671]
+ 4 invalid 
+  Min 0.1730136126279831
+  Max 0.17874950170516968
+  Avg 0.17604817748069762
+  Std 0.00229792596465069
+ -- 9 gen --
+mate
+mate
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15bde8460>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.0
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_31"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_93 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_93 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_62 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_94 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_94 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_63 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_95 (Dense)            (None, 10)                330       
+                                                                 
+ activation_95 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.1696794629096985, 0.9498000144958496]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15b2033a0>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.0
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_32"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_96 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_96 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_64 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_97 (Dense)            (None, 32)                8224      
+                                                                 
+ activation_97 (Activation)  (None, 32)                0         
+                                                                 
+ dropout_65 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_98 (Dense)            (None, 10)                330       
+                                                                 
+ activation_98 (Activation)  (None, 10)                0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.16853348910808563, 0.9492999911308289]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15b07c730>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.0
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_33"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_99 (Dense)            (None, 256)               200960    
+                                                                 
+ activation_99 (Activation)  (None, 256)               0         
+                                                                 
+ dropout_66 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_100 (Dense)           (None, 32)                8224      
+                                                                 
+ activation_100 (Activation)  (None, 32)               0         
+                                                                 
+ dropout_67 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_101 (Dense)           (None, 10)                330       
+                                                                 
+ activation_101 (Activation)  (None, 10)               0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.17844867706298828, 0.9496999979019165]
+optimizer is Adam
+ load mnist data
+  build mlp model
+
+        optimizer:	<keras.optimizer_v2.adam.Adam object at 0x15baac940>
+        dense1:	256
+        dense2:	32
+        drop1:	0.29334818588837985
+        drop2:	0.0
+        activation:	sigmoid
+        batch_size:\32
+        
+Model: "sequential_34"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_102 (Dense)           (None, 256)               200960    
+                                                                 
+ activation_102 (Activation)  (None, 256)              0         
+                                                                 
+ dropout_68 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_103 (Dense)           (None, 32)                8224      
+                                                                 
+ activation_103 (Activation)  (None, 32)               0         
+                                                                 
+ dropout_69 (Dropout)        (None, 32)                0         
+                                                                 
+ dense_104 (Dense)           (None, 10)                330       
+                                                                 
+ activation_104 (Activation)  (None, 10)               0         
+                                                                 
+=================================================================
+Total params: 209,514
+Trainable params: 209,514
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 00002: early stopping
+[0.16700750589370728, 0.95169997215271]
+ 4 invalid 
+  Min 0.16700750589370728
+  Max 0.17844867706298828
+  Avg 0.17170953750610352
+  Std 0.004284302648771846
+-- iteration end -- 
+ best individual [256, 32, 0.29334818588837985, 0.0, 32, 'sigmoid', 'False'] (0.16700750589370728,) 
